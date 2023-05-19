@@ -1,21 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link
-      href="css/estilos_cel.css"
-      rel="stylesheet"
-      media="screen and (min-width: 320px) and (max-width: 480px)"
-    />
-
-    <link
-      href="css/estilos_pc.css"
-      rel="stylesheet"
-      media="screen and (min-width: 992px)"
-    />
+    <link href="estilos_cel.css" rel="stylesheet" media="screen and (min-width: 320px) and (max-width: 480px)"/>
+    <link href="estilos_tablet.css" rel="stylesheet" media="screen and (max-width: 768px)"/>
+    <link href="estilos_pc.css" rel="stylesheet" media="screen and (min-width: 992px)"/>
 
     <title>Queijeiro Valentin - DWM2AP - 2023</title>
   </head>
@@ -26,7 +18,7 @@
       <div>
       <nav class="nav">
         <ul class="menu">
-          <li class="lista"><a  class='lista2'href="#inicio">Inicio</a></li>
+          <li class="lista"><a  class='lista2' href="#inicioH1">Inicio</a></li>
           <li class="lista" ><a class="lista2" href="#habitos">Habitos</a></li>
           <li class="lista" ><a class="lista2" href="#filosofia">Filosofia</a></li>
           <li  class="lista"><a class="lista2" href="#testimonios">Testimonios</a></li>
@@ -36,7 +28,7 @@
     </div>
       
     <div class="divCorazon">
-        <h1 id="inicio">VIDA SANA<br /></h1>
+        <h1 id="inicioH1">VIDA SANA<br /></h1>
         <img
           class="corazonSonriente"
           src=".img/Corazon2.png"
@@ -108,7 +100,7 @@
               sana. La clave es encontrar un equilibrio que funcione para ti y
               hacer pequeños cambios diarios que te lleven a un estilo de vida
               más saludable.
-            </li class="lista">
+            </li>
           </ul>
         </div>
 
@@ -118,11 +110,12 @@
       <section id="filosofia">
         <h3>FILOSOFIA</h3>
         <div class="filo">
-          <img
-            class="zanamun"
-            src=".img/Zanahoria-Sonriente.png"
-            alt="zanahoriaSonriente"
-          />
+      
+            <img class="zanamun"
+             src=".img/Zanahoria-Sonriente.png"
+             alt="zanahoriaSonriente"
+             />
+      
           <p>
             La filosofía detrás de una vida sana es la creencia de que la salud
             y el bienestar son fundamentales para una vida plena y
@@ -148,7 +141,6 @@
             <iframe
               src="https://www.youtube.com/embed/bOu_SA9LP38"
               title="YouTube video player"
-              frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
             ></iframe>
@@ -188,7 +180,7 @@
       <section class="contacto">
         <h3 id="1contacto">CONTACTO</h3>
         <div class="formulario">
-            <img class="corazao" src=".img/Corazon1.png" alt="">
+            <!-- <img class="corazao" src=".img/Corazon1.png" alt=""> -->
             <form action="gracias.html" method="post" class="form">
               <label for="nombre"
               >Nombre
@@ -268,28 +260,27 @@
               <a class="a" href="gracias.html">Enviar</a>
             </div>
           </form>
-          <img class="corazao2" src=".img/Corazon1.png" alt="">
+          <!-- <img class="corazao2" src=".img/Corazon1.png" alt=""> -->
         </div>
       </section>
     </main>
     <br/>
     
-    <footer>
       <footer class="footer">
         <div class="container">
           <div class="row">
-            <div class="col-md-6">
+            <div>
               <p>Valentin Queijeiro, Interacción con Dispositivos Móviles, DWM2AP, 2023</p>
               <p>
                 
               </p>
             </div>
-            <div class="col-md-6">
+            <div>
               <h3>Síguenos en redes sociales</h3>
               <div class="iconits">
-                <a href="https://www.facebook.com/"><img src=".img/fb.png" alt="not found" height="50px" width="50px"></a>
-                <a href="https://www.instagram.com/"><img src=".img/ig.png" alt="not found" height="50px" width="50px"></a>
-                <a href="https://twitter.com/"><img src=".img/twirer.png" alt="not found" height="50px" width="50px"></a>
+                <a href="https://www.facebook.com/"><img src=".img/fb.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/"><img src=".img/ig.png" alt="Instagram"></a>
+                <a href="https://twitter.com/"><img src=".img/twitter.png" alt="Twitter"></a>
 
               </div>
             </div>
@@ -303,6 +294,5 @@
           </div>
         </div>
       </footer>
-    </footer>
   </body>
 </html>
